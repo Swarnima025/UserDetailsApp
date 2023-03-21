@@ -136,6 +136,7 @@ body,
   padding: 20px;
   background: white;
   display: flex;
+  justify-content: space-between;
 }
 
 @media (min-width: 600px) {
@@ -189,4 +190,16 @@ body,
   vertical-align: middle;
   cursor: pointer;
   outline: none;
+}
+.heading{
+  margin-left: 90px;
+  gap:100px;
+  display: flex;
+}
+.list-item{
+  gap:120px;
+  display: flex;
+}
+.details{
+  text-align: center;
 }
